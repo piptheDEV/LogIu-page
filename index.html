@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Storage Vault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Secure Vault Login</h2>
+    <input type="password" id="vault-password" placeholder="Enter password" />
+    <button onclick="unlockVault()">Unlock</button>
+
+    <div id="data-section" style="display: none;">
+      <h3>Stored Data</h3>
+      <pre id="stored-data"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+  </html>
